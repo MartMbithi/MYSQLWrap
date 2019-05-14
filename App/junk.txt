@@ -1,0 +1,12 @@
+# import collections
+
+# Person = collections.namedtuple('Person', 'name age')
+
+# bob = Person(name='name', age='varchar')
+# jane = Person(name='age', age='Intger')
+
+
+host = os.getenv('SERVER_HOST')
+database = os.getenv('DATABASE_NAME')
+user = os.getenv('USER_ROLE')
+password = os.getenv('PASSWORD')
